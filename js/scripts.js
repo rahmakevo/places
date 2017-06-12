@@ -1,0 +1,17 @@
+$(document).ready(function(){
+  $("#nairobi").click(function(){
+    $("#slide").slideToggle();
+  });
+  $("#kisumu").click(function(){
+    $("#down").slideToggle();
+  });
+  $("#meru").click(function(){
+    $("#vaite").slideToggle();
+  });
+  $("#nakuru").click(function(){
+    $("#kikuyu").slideToggle();
+  });
+  $("#mombasa").click(function(){
+    $("#coast").slideToggle();
+  });
+})
